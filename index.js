@@ -25,5 +25,5 @@ function walkToPark(name,breed){
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog(name,breed) {
-    return routine.map(fn => fn(name,breed)) 
+    return routine.map(x => x(name,breed)) 
 }
